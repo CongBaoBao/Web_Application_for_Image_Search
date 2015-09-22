@@ -3,11 +3,11 @@
 ### This is a web application to supoort Non-English to English Flickr image search.
 
 #### The whole work process of this image search engine is: 
-	Firstly, the user selects the type of the language and enters search query; 
-	Then engine uses Bing translator to translate query into English; 
-	Engine uses translated query to get related images and their associated information through Flickr; 
-	And then using Bing translator again to translate images' information back to the specified language; 
-	Finally engine will present these images with details.
+Firstly, the user selects the type of the language and enters search query; 
+Then engine uses Bing translator to translate query into English; 
+Engine uses translated query to get related images and their associated information through Flickr; 
+And then using Bing translator again to translate images' information back to the specified language; 
+Finally engine will present these images with details.
 
 #### For image searching:
 I use translated query and number of images as input to call Flickr API's search method. Then sending http request to Flickr and parsing XML data.
